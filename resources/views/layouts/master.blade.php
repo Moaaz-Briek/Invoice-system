@@ -33,7 +33,7 @@
 
 <script>
     setInterval(function () {
-       // $("#unreadnotifications").load(window.location.href + "#unreadnotifications");
-       // $("#notifications_count").load(window.location.href + "#notifications_count");
+       $("#unreadnotifications").load(window.location.href + "#unreadnotifications");
+       $("#notifications_count").load(window.location.href + "#notifications_count");
     }, 5000);
 </script>
